@@ -1,0 +1,604 @@
+# depslib dependency file v1.0
+1516185157 source:c:\users\administrator\documents\vks source\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1260655112 c:\users\administrator\documents\vks source\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1424691782 c:\users\administrator\documents\vks source\thing.h
+	"position.h"
+
+1260655112 c:\users\administrator\documents\vks source\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1531152136 c:\users\administrator\documents\vks source\const.h
+	"definitions.h"
+
+1540500049 c:\users\administrator\documents\vks source\definitions.h
+	"exception.h"
+	<cstring>
+
+1260655112 c:\users\administrator\documents\vks source\exception.h
+	"otsystem.h"
+
+1261686680 c:\users\administrator\documents\vks source\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1260655112 c:\users\administrator\documents\vks source\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1260655112 c:\users\administrator\documents\vks source\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1534867517 c:\users\administrator\documents\vks source\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1260655112 c:\users\administrator\documents\vks source\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1441241668 c:\users\administrator\documents\vks source\enums.h
+	<string>
+	<list>
+
+1260655112 c:\users\administrator\documents\vks source\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\administrator\documents\vks source\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\administrator\documents\vks source\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1260655112 c:\users\administrator\documents\vks source\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1422131522 c:\users\administrator\documents\vks source\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1538164274 c:\users\administrator\documents\vks source\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"duel.h"
+	"npc.h"
+
+1526311487 c:\users\administrator\documents\vks source\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1260655112 c:\users\administrator\documents\vks source\templates.h
+	"otsystem.h"
+
+1531152136 c:\users\administrator\documents\vks source\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1260655112 c:\users\administrator\documents\vks source\fileloader.h
+	"otsystem.h"
+
+1249592476 c:\users\administrator\documents\vks source\waypoints.h
+	"otsystem.h"
+
+1534590916 c:\users\administrator\documents\vks source\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\administrator\documents\vks source\cylinder.h
+	"otsystem.h"
+
+1514297321 c:\users\administrator\documents\vks source\item.h
+	"otsystem.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1260655112 c:\users\administrator\documents\vks source\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1514296903 c:\users\administrator\documents\vks source\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1260655112 c:\users\administrator\documents\vks source\itemloader.h
+	"fileloader.h"
+
+1260655112 c:\users\administrator\documents\vks source\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1422131508 c:\users\administrator\documents\vks source\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1423818958 c:\users\administrator\documents\vks source\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1260655112 c:\users\administrator\documents\vks source\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\administrator\documents\vks source\depot.h
+	"container.h"
+
+1260655112 c:\users\administrator\documents\vks source\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\administrator\documents\vks source\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\administrator\documents\vks source\group.h
+	"otsystem.h"
+
+1534867683 c:\users\administrator\documents\vks source\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1260655112 c:\users\administrator\documents\vks source\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1260655112 c:\users\administrator\documents\vks source\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1260655112 c:\users\administrator\documents\vks source\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1260655112 c:\users\administrator\documents\vks source\party.h
+	"player.h"
+
+1439895976 c:\users\administrator\documents\vks source\duel.h
+	"player.h"
+
+1525084400 c:\users\administrator\documents\vks source\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1444040304 c:\users\administrator\documents\vks source\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1518642032 c:\users\administrator\documents\vks source\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1534801637 c:\users\administrator\documents\vks source\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1260655112 c:\users\administrator\documents\vks source\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1260655112 c:\users\administrator\documents\vks source\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1249592476 c:\users\administrator\documents\vks source\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1424697668 c:\users\administrator\documents\vks source\configmanager.h
+	"luascript.h"
+
+1260655112 c:\users\administrator\documents\vks source\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1518640968 c:\users\administrator\documents\vks source\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1260655112 c:\users\administrator\documents\vks source\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1260655112 c:\users\administrator\documents\vks source\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1260655112 c:\users\administrator\documents\vks source\housetile.h
+	"tile.h"
+
+1260655112 c:\users\administrator\documents\vks source\beds.h
+	"item.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1260655112 c:\users\administrator\documents\vks source\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1260655112 c:\users\administrator\documents\vks source\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1260655112 c:\users\administrator\documents\vks source\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1528147364 c:\users\administrator\documents\vks source\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1260655112 c:\users\administrator\documents\vks source\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1260655112 c:\users\administrator\documents\vks source\town.h
+	"otsystem.h"
+
+1530657196 c:\users\administrator\documents\vks source\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1249592476 c:\users\administrator\documents\vks source\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1260655112 c:\users\administrator\documents\vks source\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1459719336 c:\users\administrator\documents\vks source\resources.h
+	"definitions.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1260655112 c:\users\administrator\documents\vks source\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1260655112 source:c:\users\administrator\documents\vks source\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1431794218 source:c:\users\administrator\documents\vks source\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1428326274 c:\users\administrator\documents\vks source\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1460233954 source:c:\users\administrator\documents\vks source\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	<iostream>
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1260655112 c:\users\administrator\documents\vks source\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1422152468 source:c:\users\administrator\documents\vks source\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1424697662 source:c:\users\administrator\documents\vks source\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1260655112 c:\users\administrator\documents\vks source\protocolold.h
+	"protocol.h"
+
+1260655112 c:\users\administrator\documents\vks source\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1260655112 c:\users\administrator\documents\vks source\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1436103670 source:c:\users\administrator\documents\vks source\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1515176059 c:\users\administrator\documents\vks source\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1528045672 source:c:\users\administrator\documents\vks source\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"monsters.h"
+	"condition.h"
+	"combat.h"
+	"spells.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1423819126 source:c:\users\administrator\documents\vks source\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1249592476 source:c:\users\administrator\documents\vks source\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1260655112 c:\users\administrator\documents\vks source\databasemanager.h
+	"database.h"
+
+1260655112 source:c:\users\administrator\documents\vks source\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
